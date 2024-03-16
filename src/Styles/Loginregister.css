@@ -1,0 +1,75 @@
+/* body {
+    background-color: #e3f6f5;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+   
+  .title1 {
+    text-align: center;
+    width: 30vw;
+    background-color: #272343;
+    padding: 2vw 1vw;
+    border-radius: 10px 10px 0 0;
+    font-size: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #fff;
+  }
+   
+  .App1 {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 30vw;
+    padding: 2vw 1vw;
+    background-color: #272343;
+    border-radius: 0 0 10px 10px;
+    color: #fff;
+  } 
+   
+  input {
+    border: 1px solid rgb(172, 171, 171);
+    border-radius: 10px;
+    padding: 1vw 1vw;
+    outline: none;
+    margin: 5px;
+  }
+   
+  select #userRole {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 8px;
+    font-size: 16px;
+   
+    &:hover {
+      border-color: #999;
+    }
+   
+    &>option[selected] {
+      color: #000;
+      font-weight: bold;
+    }
+   
+   
+   
+    /* -webkit-appearance: none;
+   
+    -moz-appearance: none; */
+   
+/*    
+   
+    &::after {
+      content: "\u25BC";
+      font-size: 12px;
+      color: #999;
+      position: absolute;
+      top: 50%;
+      right: 10px;
+      transform: translateY(-50%);
+      pointer-events: none;
+    }
+  }
+    */ 

@@ -1,0 +1,30 @@
+.ind-image{
+    width:500px;
+    height:500px;
+}
+
+.ind-section{
+    display: flex;
+}
+
+.ind-image img{
+    width:100%
+}
+.ind-details{
+    padding: 20px;
+}
+.space{
+    margin:10px;
+}
+.ind-details button{
+    background-color: lightblue;
+    padding: 10px;
+    width: 10rem;
+    border-radius: 5px;
+    columns: white;
+}
+.my-button-class:hover {
+    background-color: #ff7a59;
+    color: #fff;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
