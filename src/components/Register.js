@@ -1,43 +1,39 @@
 import React from "react";
 import { useForm } from "react-hook-form";
 import { useNavigate } from "react-router-dom";
-import '../Styles/Loginregister.css'
+import '../Styles/Loginregister.css';
 import Navbar from "./Navbar";
-const Login = ({ method }) => {
-  const navigate = useNavigate();
- 
+ const Register 
+= ({ method }) => {
   const {
     register,
     handleSubmit,
     formState: { errors },
   } = useForm();
  
+  // const [currentPage, setCurrentPage] = useState("resigter");
+ 
   const onSubmit = (data) => console.log(data);
+ 
+  const navigate = useNavigate();
+ 
   return (
     <>
-    <Navbar />
+     <Navbar />
       <div className="formclass">
-        <p className="title1">USER LOGIN</p>
+        <p className="title1">ADD USER</p>
         <form class="App1" onSubmit={handleSubmit(onSubmit)}>
+          <i class="fa fa-user"></i>
           <label htmlFor="userRole">User Role</label>
           <select id="userRole" {...register("userRole", { required: true })}>
-            <option value="Select Role">Select Role</option>
+            <option value="" selected disabled>
+              Select Role
+            </option>
             <option value="admin">Admin</option>
             <option value="customer">Customer</option>
           </select>
           {errors.userRole && (
             <span style={{ color: "red" }}>* Please select a user role.</span>
-          )}
- 
-          <label for="email">Email Id</label>
-          <input
-            type="email"
-            id="email"
-            placeholder="Enter your email address"
-            {...register("email", { required: true })}
-          />
-          {errors.email && (
-            <span style={{ color: "red" }}>* Email is mandatory</span>
           )}
  
           <label htmlFor="username">Username</label>
@@ -51,6 +47,18 @@ const Login = ({ method }) => {
             <span style={{ color: "red" }}>* Username is required</span>
           )}
  
+          <i class="fa fa-envelope-o" aria-hidden="true"></i>
+          <label for="email">Email Id</label>
+          <input
+            type="email"
+            id="email"
+            placeholder="Enter your email address"
+            {...register("email", { required: true })}
+          />
+          {errors.email && (
+            <span style={{ color: "red" }}>* Email is mandatory</span>
+          )}
+ 
           <label for="password">Password</label>
           <input
             type="password"
@@ -59,21 +67,34 @@ const Login = ({ method }) => {
             {...register("password")}
           />
  
+          <label htmlFor="address">Address</label>
+          <textarea
+            id="address"
+            rows="4"
+            placeholder="Enter your complete address"
+            {...register("address")}
+          />
+          {errors.address && (
+            <span style={{ color: "red" }}>* Please enter your address</span>
+          )}
+ 
           <div style={{ display: "flex", justifyContent: "center" }}>
             <input
               type="submit"
-              value="Login"
+              value="Register"
               style={{ padding: "5px 10px", fontSize: "14px" }}
+              onClick={() => {
+                method("login");
+              }}
             />
           </div>
- 
-          <p>New user? Register here </p>
+          <p>Already a user ?</p>
           <button
             onClick={() => {
-              navigate("/register");
+              navigate("/login");
             }}
           >
-            Register
+            Log in
           </button>
         </form>
       </div>
@@ -81,4 +102,5 @@ const Login = ({ method }) => {
   );
 };
  
-export default Login;
+export default Register;
+ 

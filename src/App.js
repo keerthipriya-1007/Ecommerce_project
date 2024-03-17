@@ -16,7 +16,7 @@ import Watchespage from './pages/Watchespage';
 import Womanclothingpage from './pages/Womanclothingpage';
 import Menclothingpage from './pages/Menclothingpage';
 import Login from './components/Login';
-import Register from './components/data/Register';
+import Register from './components/Register';
 import BooksSingle from './Singles/BooksSingle';
 import ComputerSingle from './Singles/ComputerSingle';
 import FurnitureSingle from './Singles/FurnitureSingle';
@@ -41,22 +41,25 @@ function App() {
       <Route path='/mobiles/:id' element={<MobileSingles />} />
       <Route path='/furniture' exact element={<Furniturepage/>} />
       <Route path='/furniture/:id' element={<FurnitureSingle />} />
- {/*<Route path='/computers' exact element={<Computerpage/>} />
+       <Route path='/computers' exact element={<Computerpage/>} />
       <Route path='/computers/:id' element={<ComputerSingle />} />
-     
-      <Route path='/books' exact element={<Bookspage/>} />
-      <Route path='/books/:id' element={<BooksSingle />} />
       <Route path='/kitchen' exact element={<Kitchenpage/>} />
-      <Route path='/kitchen/:id' element={<KitchenSingle />} />
+      <Route path='/kitchen/:id' element={<KitchenSingle />} />\
       <Route path='/Watches' exact element={<Watchespage/>} />
       <Route path='/Watches/:id' element={<WatchesSingle />} />
-      <Route path='/Womanclothing' exact element={<Womanclothingpage/>} />
-      <Route path='/womanclothing/:id' element={<WomanclothingSingle />} />
-      <Route path='/Menclothing' exact element={<Menclothingpage/>} />
-      <Route path='/menClothing/:id' element={<menClothingSingle />} />
-      <Route path='/login' exact element={<Login/>} />
+      <Route path='/Woman' exact element={<Womanclothingpage/>} />
+      <Route path='/Woman/:id' element={<WomanclothingSingle />} />
+      <Route path='/Men' exact element={<Menclothingpage/>} />
+      <Route path='/Men/:id' element={<MenclothingSingle />} />
      
-      <Route path='/register' exact element={<Register/>} /> */} 
+      <Route path="/login" element={<Login />} />
+            <Route path="/register" element={<Register />} />
+     {/* <Route path='/books' exact element={<Bookspage/>} />
+      <Route path='/books/:id' element={<BooksSingle />} />
+      
+         <Route path='/login' exact element={<Login/>} />
+     
+ */} 
   
   
 

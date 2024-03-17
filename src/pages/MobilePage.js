@@ -1,25 +1,4 @@
-// import React from 'react'
-// import { mobileData } from '../components/data/mobiles'
-// function MobilePage() {
-//   return (
-//     <div className='pageSection'>
-//         {mobileData.map((item)=>{
-//             return(
-//                 <div>
-//                     <div className='pageImg'>
-//                      <img src={item.img} alt={item.description} />   
-//                     </div>
-//                 </div>
-//             )
-        
-//         })}
-//         </div>   
 
-
-//   )
-// }
-
-// export default MobilePage
 
 import React from 'react'
 import { mobileData } from '../components/data/mobiles'

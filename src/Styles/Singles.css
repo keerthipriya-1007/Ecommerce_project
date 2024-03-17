@@ -17,8 +17,9 @@
     margin:10px;
 }
 .ind-details button{
-    background-color: lightblue;
+    background-color: #01293E;
     padding: 10px;
+    color: white;
     width: 10rem;
     border-radius: 5px;
     columns: white;

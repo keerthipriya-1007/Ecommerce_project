@@ -4,9 +4,10 @@ import { Link } from "react-router-dom";
 import { useCart } from "../context/CartContext";
 import '../Styles/Navbar.css'
 import '../Styles/Products.css'
+//import {Logo } from '../assets'
 
 
-// import Logo from './assets/Logo.jpg'
+// import Logo from '../assets/Logo.jpg'
 
 
 
@@ -20,8 +21,8 @@ function Navbar() {
     <div className="navbar">
 
       <div className="leftSide">
-
-      {/* <img src={Logo}/> */}
+      <img src="https://s22908.pcdn.co/wp-content/uploads/2022/11/why-data-privacy-is-important.jpg" />
+      {/* <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.expressvpn.com%2Fblog%2Fsigns-a-shopping-website-is-fake%2F&psig=AOvVaw0vf6gEosRfYQLgbbkwvMPt&ust=1710748821563000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCIj_6rHq-oQDFQAAAAAdAAAAABAE"/> */}
 
       {/* </div>
       <div className="dropdown">

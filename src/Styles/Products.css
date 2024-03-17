@@ -3,8 +3,9 @@
 }
 .imgBox{
     width:80%;
-    padding:20px
-}
+    padding:10px;
+    /* border: 1px solid #555; */
+   }
 .Proimage{
     width: 100%
 }

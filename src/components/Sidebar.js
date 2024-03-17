@@ -1,20 +1,10 @@
 import React from 'react'
-import '../Styles/Home.css'
-import Navbar from '../components/Navbar'
-import Products from '../components/Products'
-import '../Styles/Register.css'
 import 'bootstrap/dist/css/bootstrap.css';
 import { Link } from "react-router-dom";
-import ControlledCarousel from '../components/ControlledCarousel';
-import Sidebar from '../components/Sidebar'
-function Home() {
+function Sidebar() {
   return (
     <div>
-       <Navbar />
-       <div className='carousel'>
-         {/* <ControlledCarousel />  */}
-        <div className='landing'>
-        <div className='categories'>
+    <div className='categories'>
 {/* <ul class="list-group align-left"> */}
 <ul class="list-group align-left">
 <li class="list-group-item d-flex justify-content-between align-items-left  text-decoration: 
@@ -50,16 +40,8 @@ function Home() {
  
 </li>
 </ul>
-    </div>
-
-        <Products />
-        </div>
-        </div>
-       
-    </div>
-    
-   
+    </div></div>
   )
 }
 
-export default Home
+export default Sidebar
