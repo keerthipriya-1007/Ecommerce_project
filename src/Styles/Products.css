@@ -4,7 +4,8 @@
 .imgBox{
     width:80%;
     padding:10px;
-    /* border: 1px solid #555; */
+   /* border: 1px solid #555;  */
+    background-color: #e3f6f5
    }
 .Proimage{
     width: 100%
@@ -14,7 +15,8 @@
 
 }
 body{
-    background-color:aliceblue;
+    /* background-color:aliceblue; */
+    background-color:#e3f6f5;
 }
 .cart-section {
     width: 60%;

@@ -21,7 +21,7 @@ import Navbar from "./Navbar";
     <>
      <Navbar />
       <div className="formclass">
-        <p className="title1">ADD USER</p>
+        <p className="title1">CREATE AN ACCOUNT!</p>
         <form class="App1" onSubmit={handleSubmit(onSubmit)}>
           <i class="fa fa-user"></i>
           <label htmlFor="userRole">User Role</label>
