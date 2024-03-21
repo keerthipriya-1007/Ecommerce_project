@@ -24,6 +24,7 @@ import KitchenSingle from './Singles/KitchenSingle';
 import MenclothingSingle from './Singles/MenclothingSingle';
 import WatchesSingle from './Singles/WatchesSingle';
 import WomanclothingSingle from './Singles/WomanclothingSingle';
+import Home1 from './pages/Home1';
 
 
 function App() {
@@ -35,6 +36,7 @@ function App() {
      <Routes>
       <Route index element={<Home />}/>
      <Route path='/home' exact element={<Home/>} />
+     <Route path="/home1" element={ < Home1  />} />
       <Route path='/about' exact element={<About/>} />
       <Route path='/cart' exact element={<UserCart/>} />
       <Route path='/mobiles' exact element={<Mobilepage/>} />

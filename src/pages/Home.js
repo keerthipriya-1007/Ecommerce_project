@@ -20,7 +20,7 @@ function Home() {
         <div className="landing">
           <div className="categories">
             <ul class="list-group align-left">
-              <li class="list-group-item d-flex justify-content-between align-items-left  text-decoration: none;">
+              {/* <li class="list-group-item d-flex justify-content-between align-items-left  text-decoration: none;">
                 <Link to="/mobiles"> Mobiles </Link>
               </li>
 
@@ -43,7 +43,66 @@ function Home() {
               </li>
               <li class="list-group-item d-flex justify-content-between align-items-left">
                 <Link to="/Men"> Men Clothing</Link>
-              </li>
+              </li> */}
+              <h2 >CATEGORIES</h2>
+              <a
+                href="/mobiles"
+                class="btn  btn1 btn-block list-group-item d-flex justify-content-between align-items-left "
+                role="button"
+                aria-current="true"
+              >
+                {" "}
+                MOBILES{" "}
+              </a>
+
+              <a
+                href="/computers"
+                class="btn  btn1 btn-block list-group-item d-flex justify-content-between align-items-left "
+                role="button"
+                aria-current="true"
+              >
+                LAPTOPS
+              </a>
+
+              <a
+                href="/Woman"
+                class="btn  btn1 btn-block list-group-item d-flex justify-content-between align-items-left "
+                role="button"
+              >
+                WOMEN CLOTHING
+              </a>
+
+              <a
+                href="/Men"
+                class="btn  btn1 btn-block list-group-item d-flex justify-content-between align-items-left "
+                role="button"
+              >
+                MEN CLOTHING
+              </a>
+
+              <a
+                href="/Watches"
+                class="btn btn1  btn-block list-group-item d-flex justify-content-between align-items-left "
+                role="button"
+              >
+                WATCHES
+              </a>
+
+              <a
+                href="/furniture"
+                class="btn btn1  btn-block list-group-item d-flex justify-content-between align-items-left "
+                role="button"
+              >
+                FURNITURE
+              </a>
+
+              <a
+                href="/kitchen"
+                class="btn btn1  btn-block list-group-item d-flex justify-content-between align-items-left "
+                role="button"
+              >
+                KITCHEN
+              </a>
             </ul>
           </div>
 

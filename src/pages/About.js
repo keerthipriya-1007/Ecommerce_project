@@ -1,6 +1,7 @@
 import React from "react";
 import "../Styles/About.css";
 import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 function About() {
   return (
     <>
@@ -49,15 +50,8 @@ function About() {
             <li>United States</li>
           </ul>
         </div>
+        <Footer />
       </div>
-      <footer className="footer">
-        <div className="legal-links">
-          <a href="#">Conditions of Use & Sale</a>
-          <a href="#">Privacy Notice</a>
-          <a href="#">Interest-Based Ads</a>
-        </div>
-        <p>&copy; 1996-2024, ClickShop or its affiliates</p>
-      </footer>
     </>
   );
 }

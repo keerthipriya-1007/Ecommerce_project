@@ -1,3 +1,23 @@
 body{
     background-color: #e3f6f5
 }
+
+.categories {
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.categories h3 {
+    margin-bottom: 1rem;
+}
+
+.list-group-item {
+    list-style: none;
+    padding: 0.5rem 1rem;
+}
+
+.list-group-item:hover {
+    background-color: #f5c57d;
+    cursor: pointer;
+}

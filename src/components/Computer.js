@@ -1,32 +1,40 @@
-import React from 'react'
-import {computerData} from './data/computers.js'
-import '../Styles/Products.css'
-import { Link } from 'react-router-dom'
+import React from "react";
+import { computerData } from "./data/computers.js";
+import "../Styles/Products.css";
+import { Link } from "react-router-dom";
 
 function Computer() {
-    const firstfiveimgc=computerData.slice(0,5)
+  const firstfiveimgc = computerData.slice(0, 4);
   return (
     <>
-    <div className='proTitle'>
- <h2>Computers</h2>
-<div className='proSection'>
-       
-       {
-          firstfiveimgc.map((item)=>{
-               return(
-                   <div className='imgBox'>
-                     <Link to={`/computers/${item.id}`}> 
-                       <img className='Proimage'src={item.image} alt={item.description} />
-                      </Link> </div>
-               )
-           })
-       }
-
-   </div>
-   </div>
+      <div className="proTitle">
+        <h2>LAPTOPS</h2>
+        <div className="proSection">
+          {firstfiveimgc.map((item) => (
+            <div className="mobile-card" key={item.id}>
+              {" "}
+              {/* Add unique key for accessibility */}
+              <Link to={`/computers/${item.id}`}>
+                <div className="card-image">
+                  <img
+                    src={item.image}
+                    alt={item.description || "Mobile phone"}
+                  />{" "}
+                  {/* Descriptive alt text */}
+                </div>
+              </Link>
+              <div className="card-content">
+                <h5>
+                  {item.price && `₹${item.price}`}{" "}
+                  {/* Conditionally display price */}
+                </h5>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
     </>
-    
-  )
+  );
 }
 
-export default Computer
+export default Computer;

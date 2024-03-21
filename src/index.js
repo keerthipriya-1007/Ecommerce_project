@@ -6,14 +6,23 @@ import reportWebVitals from './reportWebVitals';
 import Home from './pages/Home';
 import CartProvider from './context/CartContext.js';
 import "./Styles/Loginregister.css";
+import { AuthProvider } from './context/AuthContext';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <React.StrictMode>
+    <AuthProvider>
     <CartProvider>
-
     <App />
     </CartProvider>
+    </ AuthProvider>
+    
+  </React.StrictMode>
+    
+
+   
+    
     
   </React.StrictMode>
 );

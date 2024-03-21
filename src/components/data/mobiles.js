@@ -1,122 +1,138 @@
-export const mobileData = [{
-
-        "id": "1",
-        "product": "Mobile",
-        "image": "/assets/NewMobile/1.jpg",
-        "company": "Apple",
-        "model": "iPhone 13 Pro",
-        "price": "1099.00",
-        "category": "Electronics",
-        "description": "The latest iPhone model with advanced camera capabilities and powerful performance."
-    },
-    {
-        "id": "2",
-        "product": "Mobile",
-        "image": "/assets/NewMobile/2.jpg",
-        "company": "Samsung",
-        "model": "Galaxy Z Fold 3",
-        "price": "1799.00",
-        "category": "Electronics",
-        "description": "A foldable smartphone with a large display and multitasking features."
-    },
-    {
-        "id": "3",
-        "product": "Mobile",
-        "image": "/assets/NewMobile/3.jpg",
-        "company": "Google",
-        "model": "Pixel 6",
-        "price": "799.99",
-        "category": "Electronics",
-        "description": "A Google Pixel phone with exceptional camera quality and the latest Android features."
-    },
-    {
-        "id": "4",
-        "product": "Mobile",
-        "image": "/assets/NewMobile/4.jpg",
-        "company": "OnePlus",
-        "model": "9 Pro",
-        "price": "899.00",
-        "category": "Electronics",
-        "description": "A flagship OnePlus phone known for its smooth performance and fast charging."
-    },
-    {
-        "id": "5",
-        "product": "Mobile",
-        "image": "/assets/NewMobile/5.jpg",
-        "company": "Xiaomi",
-        "model": "Mi 11 Ultra",
-        "price": "999.50",
-        "category": "Electronics",
-        "description": "A high-spec Xiaomi phone with a versatile camera system and powerful hardware."
-    },
-    {
-        "id": "6",
-        "product": "Mobile",
-        "image": "/assets/NewMobile/6.jpg",
-        "company": "Sony",
-        "model": "Xperia 1 III",
-        "price": "1199.00",
-        "category": "Electronics",
-        "description": "A Sony Xperia phone with a 4K display and pro-level camera features."
-    },
-    {
-        "id": "7",
-        "product": "Mobile",
-        "image": "/assets/NewMobile/7.jpg",
-        "company": "LG",
-        "model": "G9 ThinQ",
-        "price": "749.00",
-        "category": "Electronics",
-        "description": "An LG smartphone with AI-enhanced features and a sleek design."
-    },
-    {
-        "id": "8",
-        "product": "Mobile",
-        "image": "/assets/NewMobile/8 copy.jpg",
-        "company": "Oneplus",
-        "model": "8T",
-        "price": "599.99",
-        "category": "Electronics",
-        "description": "A Motorola Edge phone with 5G capabilities and a high-refresh-rate display."
-    },
-    {
-        "id": "9",
-        "product": "Mobile",
-        "image": "/assets/NewMobile/9.jpg",
-        "company": "Huawei",
-        "model": "P50 Pro",
-        "price": "1299.00",
-        "category": "Electronics",
-        "description": "A Huawei flagship phone with advanced camera technology and sleek aesthetics."
-    },
-    {
-        "id": "10",
-        "product": "Mobile",
-        "image": "/assets/NewMobile/10.jpg",
-        "company": "Oppo",
-        "model": "Find X5 Pro",
-        "price": "899.50",
-        "category": "Electronics",
-        "description": "An Oppo Find X phone with innovative design and impressive camera features."
-    },
-    {
-        "id": "11",
-        "product": "Mobile",
-        "image": "/assets/NewMobile/11.jpg",
-        "company": "Nokia",
-        "model": "8.4 5G",
-        "price": "549.00",
-        "category": "Electronics",
-        "description": "A Nokia smartphone with 5G connectivity and a focus on reliability."
-    },
-    {
-        "id": "12",
-        "product": "Mobile",
-        "image": "/assets/NewMobile/12.jpg",
-        "company": "Realme",
-        "model": "GT Master Edition",
-        "price": "379.99",
-        "category": "Electronics",
-        "description": "A Realme phone designed in collaboration with a renowned designer, featuring a unique aesthetic."
-    }
-]
+export const mobileData = [
+  {
+    id: "B1",
+    product: "Mobile",
+    image: "/assets/NewMobile/1.png",
+    company: "Apple",
+    model: "iPhone 15 Pro",
+    price: "127990",
+    oldPrice: "150900",
+    category: "Electronics",
+    description:
+      "FORGED IN TITANIUM — iPhone 15 Pro has a strong and light aerospace-grade titanium design with a textured matte-glass back. It also features a Ceramic Shield front that’s tougher than any smartphone glass. And it’s splash, water, and dust resistant.",
+  },
+  {
+    id: "B2",
+    product: "Mobile",
+    image: "/assets/NewMobile/2.jpg",
+    company: "Samsung",
+    model: "Galaxy Z Fold 3",
+    price: "89999",
+    oldPrice: "97900",
+    category: "Electronics",
+    description:
+      "Main Display - 19.19cm (7'6) Infinity Flex Display with an Under Display Camera, Dynamic AMOLED 2X with Adaptive Refresh Rate. Cover Display - 15.82cm (6.2”) Infinity-O Display, Switchable 60/120Hz Compatible with S Pen Fold Edition and S Pen Pro (Sold separately).",
+  },
+  {
+    id: "B3",
+    product: "Mobile",
+    image: "/assets/NewMobile/3.jpg",
+    company: "Google",
+    model: "Pixel 7a 5G",
+    price: "41990",
+    oldPrice: "64500",
+    category: "Electronics",
+    description:
+      "A Google Pixel phone with exceptional camera quality and the latest Android features.",
+  },
+  {
+    id: "B4",
+    product: "Mobile",
+    image: "/assets/NewMobile/4.jpg",
+    company: "OnePlus",
+    model: "CE 2 5G",
+    price: "23999",
+    oldPrice: "30000",
+    category: "Electronics",
+    description:
+      "Designed by OnePlus – Coming in at 7.8mm thick, weighing 173g, this is THE slimmest OnePlus phone yet, since the 6T. OnePlus Quality – Powered by the most stable version of OxygenOS 11, based on Android 11, this device is easily futureproof, boasting 2 Years of Android version updates and 3 years of worth of security patches via OTA.",
+  },
+  {
+    id: "5",
+    product: "Mobile",
+    image: "/assets/NewMobile/5.jpg",
+    company: "Samsung",
+    model: "Galaxy S24 Ultra 5G AI Smartphone",
+    price: "139999",
+    category: "Electronics",
+    description:
+      "Meet Galaxy S24 Ultra, the ultimate form of Galaxy Ultra with a new titanium exterior and a 17.25cm (6.8) flat display. It's an absolute marvel of design. The legacy of Galaxy Note is alive and well. Write, tap and navigate with precision your fingers wish they had on the new, flat display.",
+  },
+  {
+    id: "6",
+    product: "Mobile",
+    image: "/assets/NewMobile/6.jpg",
+    company: "Sony",
+    model: "Xperia 1 III",
+    price: "1199.00",
+    category: "Electronics",
+    description:
+      "A Sony Xperia phone with a 4K display and pro-level camera features.",
+  },
+  {
+    id: "7",
+    product: "Mobile",
+    image: "/assets/NewMobile/7.jpg",
+    company: "LG",
+    model: "G9 ThinQ",
+    price: "749.00",
+    category: "Electronics",
+    description:
+      "An LG smartphone with AI-enhanced features and a sleek design.",
+  },
+  {
+    id: "8",
+    product: "Mobile",
+    image: "/assets/NewMobile/8 copy.jpg",
+    company: "Oneplus",
+    model: "8T",
+    price: "599.99",
+    category: "Electronics",
+    description:
+      "A Motorola Edge phone with 5G capabilities and a high-refresh-rate display.",
+  },
+  {
+    id: "9",
+    product: "Mobile",
+    image: "/assets/NewMobile/9.jpg",
+    company: "Huawei",
+    model: "P50 Pro",
+    price: "1299.00",
+    category: "Electronics",
+    description:
+      "A Huawei flagship phone with advanced camera technology and sleek aesthetics.",
+  },
+  {
+    id: "10",
+    product: "Mobile",
+    image: "/assets/NewMobile/10.jpg",
+    company: "Oppo",
+    model: "Find X5 Pro",
+    price: "899.50",
+    category: "Electronics",
+    description:
+      "An Oppo Find X phone with innovative design and impressive camera features.",
+  },
+  {
+    id: "11",
+    product: "Mobile",
+    image: "/assets/NewMobile/11.jpg",
+    company: "Nokia",
+    model: "8.4 5G",
+    price: "549.00",
+    category: "Electronics",
+    description:
+      "A Nokia smartphone with 5G connectivity and a focus on reliability.",
+  },
+  {
+    id: "12",
+    product: "Mobile",
+    image: "/assets/NewMobile/12.jpg",
+    company: "Realme",
+    model: "GT Master Edition",
+    price: "379.99",
+    category: "Electronics",
+    description:
+      "A Realme phone designed in collaboration with a renowned designer, featuring a unique aesthetic.",
+  },
+];

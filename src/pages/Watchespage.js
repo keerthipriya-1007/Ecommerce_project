@@ -22,7 +22,7 @@ function WatchesPage() {
                     </Link>
                   
                    <div className='proModel'>
-                    {item.company},{item.model}
+                    {item.brand}{item.model}
                     </div>
                 </div>
             )
