@@ -1,21 +1,24 @@
 
 
 
-import React from 'react'
+import React, { useContext }  from 'react'
 import { menData } from '../components/data/men'
 import { useParams } from 'react-router-dom'
 import '../Styles/Singles.css'
 import Navbar from '../components/Navbar'
 import UserCart from '../components/UserCart'
 import { useCart } from '../context/CartContext'
+import Navbar1 from "../components/Navbar1";
+import AuthContext from "../context/AuthContext";
+import { Link } from "react-router-dom";
 function MenclothingSingles() {
     const {id}=useParams()
-
+    const {auth} = useContext(AuthContext);
     const{addToCart, cartItem} = useCart()
     const product=menData.find((item)=>item.id===id)
   return (
     <div>
-        <Navbar />
+       {auth!==null?<Navbar1 /> : <Navbar/>}
         <div className='ind-section'>
     <div className='ind-image'>
         <img src={product.image} alt=" "/>

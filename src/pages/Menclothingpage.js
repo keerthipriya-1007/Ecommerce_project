@@ -1,13 +1,22 @@
-import React from "react";
+import React, { useContext } from "react";
 import { menData } from "../components/data/men";
 import "../Styles/Pages.css";
 import Navbar from "../components/Navbar";
 import { Link } from "react-router-dom";
 
+import { useCart } from "../context/CartContext";
+import Navbar1 from "../components/Navbar1";
+import AuthContext from "../context/AuthContext";
+
+
 function Menclothingpage() {
+  
+  const { cartItems } = useCart();
+  const {auth} = useContext(AuthContext);
   return (
     <>
-      <Navbar />
+     {auth!==null?<Navbar1 /> : <Navbar/>}
+  
       <div className="pageSection">
         {menData.map((item) => {
           return (

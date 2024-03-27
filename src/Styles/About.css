@@ -1,17 +1,26 @@
 /* Overall Styles */
 body {
-    font-family: sans-serif;
+    font-family:'Open Sans';
     margin: 0;
     padding: 0;
+    background-color:#e3f6f5  ;
 }
-
+ .about-title{
+    color: black;
+ }
 .about-container {
     max-width: 800px;
-    margin: 0 auto;
+    margin: 0 auto ;
     /* Center the content horizontally */
     padding: 2rem;
 }
-
+.card-container{
+    max-width: 11800px;
+    margin: 0 auto;
+    background-color:white  ;
+    /* Center the content horizontally */
+    padding: 2.5rem;
+}
 /* Header */
 .about-title {
     font-size: 2rem;
@@ -19,12 +28,15 @@ body {
     text-align: center;
     /* Center the title text */
 }
-
+.card{
+    padding:1rem;
+    background-color: rgb(233, 239, 241);
+}
 /* About Content */
 .about-content {
-    line-height: 1.5;
+    line-height: 2;
 }
-
+ 
 /* Availability Section */
 .availability-section {
     margin-top: 2rem;
@@ -32,41 +44,25 @@ body {
     text-align: center;
     /* Center the list items */
 }
-
+ 
 .availability-section h3 {
     margin-bottom: 1rem;
 }
-
-/* Footer */
-footer {
-    padding: 1rem;
-    text-align: center;
-    background-color: #f5f5f5;
-    /* Light gray background */
+ 
+ 
+.card-body{
+    color: black;
+    background-color: white;
+   
 }
-
-.legal-links {
-    margin-bottom: 1rem;
+.ol-sm-6 mb-3 mb-sm-0{
+    padding: left 10px;
+    align-items:
+    center;
+ 
 }
-
-.legal-links a {
-    margin-right: 1rem;
+.row{
+    padding-left: 15px;
+    padding-bottom: 15px;
 }
-
-/* Contact Us Section (Optional - adjust styles as needed) */
-.contact-us {
-    margin-top: 1rem;
-}
-
-.contact-us h3 {
-    margin-bottom: 0.5rem;
-}
-
-.contact-us li {
-    margin-bottom: 0.5rem;
-}
-
-.contact-us span {
-    font-weight: bold;
-    margin-right: 0.5rem;
-}
+ 

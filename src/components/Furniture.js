@@ -20,12 +20,10 @@ function Furniture() {
                   {/* Descriptive alt text */}
                 </div>
               </Link>
-              <div className="card-content">
-                <h5>
-                  {item.price && `₹${item.price}`}{" "}
-                  {/* Conditionally display price */}
-                </h5>
-              </div>
+              <div className="card-content">  
+              <h5>{item.model}</h5>  
+              {item.price && (<p>₹{item.price}</p>  )} 
+            </div>
             </div>
           ))}
         </div>

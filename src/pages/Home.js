@@ -20,89 +20,67 @@ function Home() {
         <div className="landing">
           <div className="categories">
             <ul class="list-group align-left">
-              {/* <li class="list-group-item d-flex justify-content-between align-items-left  text-decoration: none;">
-                <Link to="/mobiles"> Mobiles </Link>
-              </li>
-
-              <li class="list-group-item d-flex justify-content-between align-items-left">
-                <Link to="/computers"> Computers</Link>
-              </li>
-
-              <li class="list-group-item d-flex justify-content-between align-items-left">
-                <Link to="/furniture"> Furniture</Link>
-              </li>
-
-              <li class="list-group-item d-flex justify-content-between align-items-left">
-                <Link to="/kitchen"> Kitchen</Link>
-              </li>
-              <li class="list-group-item d-flex justify-content-between align-items-left">
-                <Link to="/Watches"> Watches</Link>
-              </li>
-              <li class="list-group-item d-flex justify-content-between align-items-left">
-                <Link to="/Woman"> Women Clothing</Link>
-              </li>
-              <li class="list-group-item d-flex justify-content-between align-items-left">
-                <Link to="/Men"> Men Clothing</Link>
-              </li> */}
+            
               <h2 >CATEGORIES</h2>
-              <a
-                href="/mobiles"
+              <Link
+                to="/mobiles"
                 class="btn  btn1 btn-block list-group-item d-flex justify-content-between align-items-left "
                 role="button"
                 aria-current="true"
+
               >
                 {" "}
                 MOBILES{" "}
-              </a>
+              </Link>
 
-              <a
-                href="/computers"
+              <Link
+                to="/computers"
                 class="btn  btn1 btn-block list-group-item d-flex justify-content-between align-items-left "
                 role="button"
                 aria-current="true"
               >
                 LAPTOPS
-              </a>
+              </Link>
 
-              <a
-                href="/Woman"
+              <Link
+                to="/Woman"
                 class="btn  btn1 btn-block list-group-item d-flex justify-content-between align-items-left "
                 role="button"
               >
                 WOMEN CLOTHING
-              </a>
+              </Link>
 
-              <a
-                href="/Men"
+              <Link
+                to="/Men"
                 class="btn  btn1 btn-block list-group-item d-flex justify-content-between align-items-left "
                 role="button"
               >
                 MEN CLOTHING
-              </a>
+              </Link>
 
-              <a
-                href="/Watches"
+              <Link
+                to="/Watches"
                 class="btn btn1  btn-block list-group-item d-flex justify-content-between align-items-left "
                 role="button"
               >
                 WATCHES
-              </a>
+              </Link>
 
-              <a
-                href="/furniture"
+              <Link
+                to="/furniture"
                 class="btn btn1  btn-block list-group-item d-flex justify-content-between align-items-left "
                 role="button"
               >
                 FURNITURE
-              </a>
+              </Link>
 
-              <a
-                href="/kitchen"
+              <Link
+                to="/kitchen"
                 class="btn btn1  btn-block list-group-item d-flex justify-content-between align-items-left "
                 role="button"
               >
                 KITCHEN
-              </a>
+              </Link>
             </ul>
           </div>
 

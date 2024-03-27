@@ -21,12 +21,15 @@ function Mobiles() {
                 </div>
               </Link>
               <div className="card-content">
-                <h5>
-                  {item.price && `₹${item.price}`}{" "}
-                  {item.oldPrice && (
-                    <span className="old-price">₹{item.oldPrice}</span>
-                  )}
-                </h5>
+                <h5>{item.model}</h5>
+                {item.price && (
+                  <div>
+                    <p>₹{item.price}</p>
+                    {item.oldPrice && (
+                      <span className="old-price">₹{item.oldPrice}</span>
+                    )}
+                  </div>
+                )}
               </div>
             </div>
           ))}
@@ -35,5 +38,6 @@ function Mobiles() {
     </>
   );
 }
-
+ 
 export default Mobiles;
+ 

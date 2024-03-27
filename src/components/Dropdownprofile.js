@@ -10,10 +10,10 @@ function Dropdownprofile() {
         <ul>
           {/* <ul class="list-group align-center"> */}
           <li class="list-group-item    text-decoration:none;">
-            <Link to="/">Profile</Link>
+            <Link to="/profile">Profile</Link>
           </li>
           <li class="list-group-item  ">
-            <Link to="/"> Logout</Link>
+            <Link to="/logout"> Logout</Link>
           </li>
         </ul>
         {/* </ul> */}

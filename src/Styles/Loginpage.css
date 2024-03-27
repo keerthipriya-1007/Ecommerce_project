@@ -1,8 +1,5 @@
-/* styles.css */
- 
-/* Container styling */
 .container {
-    max-width: 400px;
+    max-width: 500px;
     margin: 0 auto;
     padding: 20px;
     border-radius: 20px;
@@ -10,8 +7,17 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
  
+.card {
+    background-color: #272343;
+    ;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 2px 4px rgba(15, 53, 155, 0.1);
+}
+ 
 /* Heading styling */
-h2 {
+h1 {
     font-size: 24px;
   margin-bottom: 20px;
   color: white;
@@ -24,13 +30,13 @@ h2 {
  
 /* Form input styling */
 .form-group {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
  
 .form-control {
     width: 100%;
     padding: 10px;
-    border: 1px solid #ccc;
+    border: 1px solid #3e99e9;
     border-radius: 5px;
     font-size: 14px;
 }
@@ -66,4 +72,3 @@ h2 {
     display: block;
     margin: 0 auto;
   }
- 
